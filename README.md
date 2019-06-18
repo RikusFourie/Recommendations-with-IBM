@@ -15,3 +15,20 @@ Here I build a recommendation engine that finds similar users and recommends art
 
 4. Matrix Factorization
 Finally, I completed a machine learning approach to building recommendations. Using the user-item interactions, I build out a matrix decomposition. Using my decomposition, I got an idea of how well I can predict new articles an individual might interact with (spoiler alert - it isn't great). I finally discussed which methods I might use moving forward, and how I might test how well your recommendations are working for engaging users.
+
+## File Contents
+The project contains the following files
+
+    .
+    ├── Recommendations_with_IBM.html
+    ├── Recommendations_with_IBM.ipynb
+    ├── top_10.p
+    ├── top_20.p
+    ├── top_5.p
+    ├── user_item_matrix.p
+    ├── data                   
+    │   ├── articles_community.csv
+    │   └── user-item-interactions.csv
+    ├── project_tests.py     
+    ├── LICENSE
+    └── README.md
